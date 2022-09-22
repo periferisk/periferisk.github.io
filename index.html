@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="dk">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index,follow">
+
+    <meta property="og:site_name" content="Midtsjælland, Danmark | Weather">
+    <meta property="og:title" content="Midtsjælland, Danmark | Weather">
+    <meta property="og:description" content="Current weather">
+    <meta name="description" content="Current weather">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="weather-icons/css/weather-icons.min.css" type="text/css">
+    <link rel="stylesheet" href="weather-icons/css/weather-icons-wind.min.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <title>Midtsjælland, Danmark | Vejret</title>
+
+    <!-- Webapp capability -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-title" content="Midtsjælland, Danmark | Vejret">
+
+    <!-- Favicons -->
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="img/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/touch-icon-iphone-retina.png">
+</head>
+<body>
+
+<!-- Content -->
+<header>
+    <div class="container">
+        <div class="title">
+            <h2>Midtsjælland, Danmark</h2>
+            <h3>22-09-2022 20:20:00</h3>
+        </div>
+
+        <table class="unstyled almanac">
+            <tr>
+                <td><i class="wi wi-sunrise"></i></td>
+                <td>06:57:17</td>
+                <td><i class="wi wi-moonrise"></i></td>
+                <td>01:59:25</td>
+            </tr>
+            <tr>
+                <td><i class="wi wi-sunset"></i></td>
+                <td>19:12:24</td>
+                <td><i class="wi wi-moonset"></i></td>
+                <td>18:51:33</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><a data-fancybox data-src="#almanac" href="javascript:;" class="btn" role="button">
+                    mere
+                </a></td>
+                <td>
+                    <i class="wi wi-moon-waning-crescent-4"></i>
+                </td>
+                <td>10% fuld</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li class="active"><a href="index.html">Nu</a></li>
+                <li><a href="week.html">Uge</a></li>
+                <li><a href="month.html">Måned</a></li>
+                <li><a href="year.html">År</a></li>
+                <li><a href="archive.html">Arkiv</a></li>
+                <li><a href="maps.html">Kort</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <div class="container">
+
+        <!-- Main data -->
+        <div class="row gutters row-gutters">
+            <div class="col col-9">
+
+                <div class="row gutters row-gutters">
+                    <div class="col col-4 crd">
+
+                        <h4><i class="wi wi-thermometer"></i> Udendørs Temperatur</h4>
+
+                        <div class="crd-content">
+                            <span class="weatherdata">10,6°C</span>
+                            <table class="meta">
+                                <tr>
+                                    <td>Hi:</td>
+                                    <td>17,8°C</td>
+                                    <td>(12:30)</td>
+                                </tr>
+                                <tr>
+                                    <td>Lo:</td>
+                                    <td>9,2°C</td>
+                                    <td>(00:00)</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                    <div class="col col-4 crd">
+
+                        <h4><i class="wi wi-humidity"></i> Udendørs Luftfugtighed</h4>
+                        <div class="crd-content">
+                            <span class="weatherdata">66%</span>
+                            <table class="meta">
+                                <tr>
+                                    <td>Hi:</td>
+                                    <td>88%</td>
+                                    <td>(05:59)</td>
+                                </tr>
+                                <tr>
+                                    <td>Lo:</td>
+                                    <td>35%</td>
+                                    <td>(12:53)</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                    <div class="col col-4 crd">
+
+                        <h4><i class="wi wi-barometer"></i> Barometer</h4>
+                        <div class="crd-content">
+                            <span class="weatherdata">1011,7 mbar</span>
+                            <table class="meta">
+                                <tr>
+                                    <td>Hi:</td>
+                                    <td>1015,7 mbar</td>
+                                    <td>(00:00)</td>
+                                </tr>
+                                <tr>
+                                    <td>Lo:</td>
+                                    <td>1011,7 mbar</td>
+                                    <td>(19:55)</td>
+                                </tr>
+                                <tr>
+                                    <td>Trend (3,0 hours):</td>
+                                    <td>-0,6 mbar</td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row gutters row-gutters">
+                    <div class="col col-4 crd">
+
+                        <h4><i class="wi wi-umbrella"></i> Regn</h4>
+                        <div class="crd-content">
+                            <span class="weatherdata">0,0 mm</span>
+                            <table class="meta">
+                                <tr>
+                                    <td>Regn Mængde:</td>
+                                    <td>0,0 mm/hr</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Hi Regn Mængde:</td>
+                                    <td>0,0 mm/hr</td>
+                                    <td>(00:00)</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                    <!--div class="col col-4 crd">
+
+                        <h4><i class="wi wi-thermometer"></i> Indendørs Temperatur</h4>
+                        <div class="crd-content">
+                            <span class="weatherdata">22,9°C</span>
+                            <table class="meta">
+                                <tr>
+                                    <td>Hi:</td>
+                                    <td>34,9°C</td>
+                                    <td>(15:36)</td>
+                                </tr>
+                                <tr>
+                                    <td>Lo:</td>
+                                    <td>21,3°C</td>
+                                    <td>(06:54)</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                    <div class="col col-4 crd">
+
+                        <h4><i class="wi wi-humidity"></i> Indendørs Luftfugtighed</h4>
+                        <div class="crd-content">
+                            <span class="weatherdata">58%</span>
+                            <table class="meta">
+                                <tr>
+                                    <td>Hi:</td>
+                                    <td>60%</td>
+                                    <td>(04:19)</td>
+                                </tr>
+                                <tr>
+                                    <td>Lo:</td>
+                                    <td>30%</td>
+                                    <td>(15:35)</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div-->
+                </div>
+
+            </div>
+            <div class="col col-3 crd">
+
+                <h4><i class="wi wi-strong-wind"></i> Vind</h4>
+                <div class="crd-content">
+                    <span class="weatherdata">0,6 m/s SSE <br><i class="wi wi-wind from-158-deg"></i></span>
+                    <table class="meta">
+                        <tr>
+                            <td>Gns:</td>
+                            <td>1,9 m/s</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Hi:</td>
+                            <td>9,2 m/s<br> 180° <i class="wi wi-wind from-180-deg"></i></td>
+                            <td>(13:04)</td>
+                        </tr>
+                        <tr>
+                            <td>RMS:</td>
+                            <td>2,8 m/s</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Vector Gns:</td>
+                            <td>1,3 m/s<br> 159° <i class="wi wi-wind from-159-deg"></i></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row gutters row-gutters">
+            <div class="col col-3 crd">
+
+                <h4><i class="wi wi-windy"></i> Wind Chill</h4>
+                <div class="crd-content">
+                    <span class="weatherdata">10,6°C</span>
+                    <table class="meta">
+                        <tr>
+                            <td>Lo:</td>
+                            <td>9,2°C</td>
+                            <td>(00:00)</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+            <div class="col col-3 crd">
+
+                <h4><i class="wi wi-thermometer-exterior"></i> Dugpunkt</h4>
+                <div class="crd-content">
+                    <span class="weatherdata">4,5°C</span>
+                    <table class="meta">
+                        <tr>
+                            <td>Hi:</td>
+                            <td>9,5°C</td>
+                            <td>(08:24)</td>
+                        </tr>
+                        <tr>
+                            <td>Lo:</td>
+                            <td>0,2°C</td>
+                            <td>(16:59)</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+            <div class="col col-3 crd">
+
+                <h4><i class="wi wi-fire"></i> Varme Indeks</h4>
+                <div class="crd-content">
+                    <span class="weatherdata">10,6°C</span>
+                    <table class="meta">
+                        <tr>
+                            <td>Hi:</td>
+                            <td>17,8°C</td>
+                            <td>(12:30)</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+            <div class="col col-3 crd">
+
+                <h4><i class="wi wi-fire"></i> UV Indeks</h4>
+                <div class="crd-content">
+                    <span class="weatherdata">0,0</span>
+                    <table class="meta">
+                        <tr>
+                            <td>Hi:</td>
+                            <td>6,0</td>
+                            <td>(11:46)</td>
+                        </tr>
+                        <tr>
+                            <td>Lo:</td>
+                            <td>0,0</td>
+                            <td>(00:00)</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- GRAPHS -->
+
+        <div class="row gutters row-gutters">
+            <div class="col col-6 crd graph-crd">
+                <h4>Temperaturer</h4>
+                <a data-fancybox="gallery" href="daytempdew.png"><img src="daytempdew.png" alt="Temperaturer"></a>
+            </div>
+            <div class="col col-6 crd graph-crd">
+                <h4>Wind Chill & Varme Indeks</h4>
+                <a data-fancybox="gallery" href="daytempchill.png"><img src="daytempchill.png" alt="Wind Chill & Varme Indeks"></a>
+            </div>
+        </div>
+
+        <div class="row gutters row-gutters">
+            <div class="col col-6 crd graph-crd">
+                <h4>Barometer</h4>
+                <a data-fancybox="gallery" href="daybarometer.png"><img src="daybarometer.png" alt="Barometer"></a>
+            </div>
+            <div class="col col-6 crd graph-crd">
+                <h4>Regn</h4>
+                <a data-fancybox="gallery" href="dayrain.png"><img src="dayrain.png" alt="Regn"></a>
+            </div>
+        </div>
+
+        <div class="row gutters row-gutters">
+            <div class="col col-6 crd graph-crd">
+                <h4>Vind</h4>
+                <a data-fancybox="gallery" href="daywind.png"><img src="daywind.png" alt="Vind"></a>
+            </div>
+            <div class="col col-6 crd graph-crd">
+                <h4>Vindretning</h4>
+                <a data-fancybox="gallery" href="daywinddir.png"><img src="daywinddir.png" alt="Vindretning"></a>
+            </div>
+        </div>
+
+        <div class="row gutters row-gutters">
+            <div class="col col-6 crd graph-crd">
+                <h4>Vind vektor</h4>
+                <a data-fancybox="gallery" href="daywindvec.png"><img src="daywindvec.png" alt="Vind vektor"></a>
+            </div>
+            <!--div class="col col-6 crd graph-crd">
+                <h4>Indendørs Temperatur</h4>
+                <a data-fancybox="gallery" href="dayinside.png"><img src="dayinside.png" alt="Indendørs Temperatur"></a>
+            </div-->
+        </div>
+
+        <div class="row gutters row-gutters">
+            <div class="col col-6 crd graph-crd">
+                <h4>UV Indeks</h4>
+                <a data-fancybox="gallery" href="dayuv.png"><img src="dayuv.png" alt="UV Indeks"></a>
+            </div>
+        </div>
+
+        <div class="row gutters row-gutters">
+        </div>
+
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <p>
+            &copy; 2022
+            PBO
+            &bull; Powered by <a href="http://weewx.com" target="_blank">weewx</a> v4.0.0
+            &bull; NeoWX by <a href="https://neoground.com" target="_blank">Neoground</a>
+            &bull; Station: W820
+        </p>
+    </div>
+</footer>
+
+<!-- ALMANAC -->
+<div style="display: none;" id="almanac" class="modal-crd">
+    <h2>Almanac</h2>
+    <div class="crd-content">
+        <div class="row gutters">
+            <div class="col-6">
+                <h2><i class="wi wi-sunrise"></i> Sol</h2>
+                <table>
+                    <tr><td>Start borgerligt tusmørke:</td><td>06:19:51</td></tr>
+                    <tr><td>Solopgang</td><td>06:57:17</td></tr>
+                    <tr><td>Højest:</td><td>13:05:25</td></tr>
+                    <tr><td>Solnedgang:</td><td>19:12:24</td></tr>
+                    <tr><td>Slut borgerligt tusmørke:</td><td>19:49:42</td></tr>
+                    <tr><td>Azimut:</td><td>285.6&deg;</td></tr>
+                    <tr><td>Højde:</td><td>-10.3&deg;</td></tr>
+                    <tr><td>Right ascension:</td><td>179.7&deg;</td></tr>
+                    <tr><td>Declination:</td><td>0.1&deg;</td></tr>
+                    <tr><td>Equinox:</td><td>23-09-2022 03:03:31</td></tr>
+                    <tr><td>Solhverv:</td><td>21-12-2022 22:47:58</td></tr>
+                </table>
+            </div>
+            <div class="col-6">
+                <h2><i class="wi wi-moonrise"></i> Måne</h2>
+                <table>
+                    <tr><td>Opgang:</td><td>01:59:25</td></tr>
+                    <tr><td>Højest:</td><td>10:36:42</td></tr>
+                    <tr><td>Nedgang:</td><td>18:51:33</td></tr>
+                    <tr><td>Azimut:</td><td>323.1&deg;</td></tr>
+                    <tr><td>Højde:</td><td>-9.8&deg;</td></tr>
+                    <tr><td>Right ascension:</td><td>146.8&deg;</td></tr>
+                    <tr><td>Declination:</td><td>17.8&deg;</td></tr>
+                    <tr><td>Nymåne:</td><td>25-09-2022 23:54:29</td></tr>
+                    <tr><td>Fuldmåne:</td><td>09-10-2022 22:54:54</td></tr>
+                    <tr><td>Fase:</td><td>Waning crescent<br />(10% full)</td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="display: none;">
+    <div id="data_loading"><i class="loading wi wi-thermometer"></i></div>
+</div>
+
+<!-- Javascript. jQuery etc. (see gulpfile) included in main.min.js -->
+<script src="main.min.js"></script>
+</body>
+</html>

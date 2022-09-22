@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<rss version="2.0" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+   <channel>
+      <title>Midtsjælland, Danmark, Weather Conditions</title>
+      <link>https://www.pbo.dk/vejret</link>
+      <description>Current conditions, and daily, monthly, and yearly summaries</description>
+      <language>en-us</language>
+      <pubDate>tor, 22 sep 2022 20:20:00 CEST</pubDate>
+
+      <lastBuildDate>tor, 22 sep 2022 20:20:00 CEST</lastBuildDate>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+      <generator>weewx 4.0.0</generator>
+      <ttl>5,000000 minutes</ttl>
+      
+      <item>
+         <title>Weather Conditions at 22-09-2022 20:20:00</title>
+         <link>https://www.pbo.dk/vejret</link>
+         <description>
+           Outside temperature: 10,6°C; 
+           Barometer: 1011,7 mbar; 
+           Wind: 0,6 m/s from 158°; 
+           Rain rate: 0,0 mm/hr; 
+           Inside temperature: 22,9°C
+         </description>
+         <pubDate>tor, 22 sep 2022 20:20:00 CEST</pubDate>
+	     <geo:lat>55.575143</geo:lat>
+    	 <geo:long>11.826449</geo:long>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Time:                22-09-2022 20:20:00<br/>
+             Outside Temperature: 10,6°C<br/>
+             Inside Temperature:  22,9°C<br/>
+             Wind Chill:          10,6°C<br/>
+             Heat Index:          10,6°C<br/>
+             Dewpoint:            4,5°C<br/>
+             Humidity:            66%<br/>
+             Barometer:           1011,7 mbar<br/>
+             Wind:                0,6 m/s from 158°<br/>
+             Rain Rate:           0,0 mm/hr<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+      <item>
+         <title>Daily Weather Summary as of 22-09-2022 20:20:00</title>
+         <link>https://www.pbo.dk/vejret</link>
+         <description>
+	        Min outside temperature: 9,2°C at 00:00:12;
+         	Max outside temperature: 17,8°C at 12:30:23;
+	        Min inside temperature:  21,3°C at 06:54:33;
+	        Max inside temperature:  34,9°C at 15:36:22;
+	        Min barometer:           1011,7 mbar at 19:55:00;
+	        Max barometer:           1015,7 mbar at 00:00:12;
+            Max wind :               9,2 m/s from 180° at 13:04:55;
+            Rain today:              0,0 mm
+         </description>
+         <pubDate>tor, 22 sep 2022 20:20:00 CEST</pubDate>
+	     <geo:lat>55.575143</geo:lat>
+    	 <geo:long>11.826449</geo:long>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Day:                     22 sep 2022<br/>
+	         Min Outside Temperature: 9,2°C at 00:00:12<br/>
+	         Max Outside Temperature: 17,8°C at 12:30:23<br/>
+	         Min Inside Temperature:  21,3°C at 06:54:33<br/>
+	         Max Inside Temperature:  34,9°C at 15:36:22<br/>
+	         Min Barometer:           1011,7 mbar at 19:55:00<br/>
+	         Max Barometer:           1015,7 mbar at 00:00:12<br/>
+             Max Wind :               9,2 m/s from 180° at 13:04:55<br/>
+             Rain today:              0,0 mm<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+      <item>
+         <title>Monthly Weather Summary as of 22-09-2022 20:20:00</title>
+         <link>https://www.pbo.dk/vejret/month.html</link>
+         <description>
+	        Min outside temperature: 0,0°C at 03-09-2022 23:57:01;
+         	Max outside temperature: 32,8°C at 09-09-2022 09:17:22;
+	        Min inside temperature:  20,6°C at 16-09-2022 07:35:00;
+	        Max inside temperature:  41,3°C at 04-09-2022 14:57:19;
+	        Min barometer:           987,3 mbar at 16-09-2022 08:49:37;
+	        Max barometer:           1019,3 mbar at 05-09-2022 11:00:00;
+            Max wind :               21,4 m/s from 270° at 15-09-2022 12:26:04;
+            Rain total for month:    44,2 mm
+         </description>
+         <pubDate>tor, 22 sep 2022 20:20:00 CEST</pubDate>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Month:                   september 2022<br/>
+	         Max Outside Temperature: 32,8°C at 09-09-2022 09:17:22<br/>
+	         Min Outside Temperature: 0,0°C at 03-09-2022 23:57:01<br/>
+	         Max Inside Temperature:  41,3°C at 04-09-2022 14:57:19<br/>
+	         Min Inside Temperature:  20,6°C at 16-09-2022 07:35:00<br/>
+	         Min Barometer:           987,3 mbar at 16-09-2022 08:49:37<br/>
+	         Max Barometer:           1019,3 mbar at 05-09-2022 11:00:00<br/>
+             Max Wind :               21,4 m/s from 270° at 15-09-2022 12:26:04<br/>
+             Rain total for month:    44,2 mm<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+      <item>
+         <title>Yearly Weather Summary as of 22-09-2022 20:20:00</title>
+         <link>https://www.pbo.dk/vejret/year.html</link>
+         <description>
+	        Min outside temperature: -5,2°C at 02-04-2022 06:39:12;
+         	Max outside temperature: 48,8°C at 27-08-2022 06:45:26;
+	        Min inside temperature:  18,2°C at 04-04-2022 13:16:52;
+	        Max inside temperature:  42,1°C at 19-03-2022 14:24:47;
+	        Min barometer:           956,5 mbar at 07-04-2022 19:42:22;
+	        Max barometer:           1039,3 mbar at 12-01-2022 11:10:37;
+            Max wind :               33,1 m/s from 270° at 30-01-2022 01:19:48;
+            Rain total for year:     360,3 mm
+         </description>
+         <pubDate>tor, 22 sep 2022 20:20:00 CEST</pubDate>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Year:                    2022<br/>
+	         Max Outside Temperature: 48,8°C at 27-08-2022 06:45:26<br/>
+	         Min Outside Temperature: -5,2°C at 02-04-2022 06:39:12<br/>
+	         Max Inside Temperature:  42,1°C at 19-03-2022 14:24:47<br/>
+	         Min Inside Temperature:  18,2°C at 04-04-2022 13:16:52<br/>
+	         Min Barometer:           956,5 mbar at 07-04-2022 19:42:22<br/>
+	         Max Barometer:           1039,3 mbar at 12-01-2022 11:10:37<br/>
+             Max Wind :               33,1 m/s from 270° at 30-01-2022 01:19:48<br/>
+             Rain total for year:     360,3 mm<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+   </channel>
+</rss>
